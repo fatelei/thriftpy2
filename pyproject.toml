@@ -1,5 +1,6 @@
 [build-system]
 requires = ["setuptools", "cython>=0.28.4,<4", "toml"]
+build-backend = "setuptools.build_meta"
 
 [project]
 name = "thriftpy2"
